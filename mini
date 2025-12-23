@@ -1,0 +1,70 @@
+🔹 MODULE-WISE PROMPTS (VERY EFFECTIVE)
+1️⃣ Usage Data Simulation Prompt
+Copy code
+
+Generate Python code to simulate smartphone app usage data including:
+- app_name
+- open_count
+- session_duration
+- timestamp
+- user_state (study / sleep / free)
+
+Store the data in JSON or CSV format.
+2️⃣ Misuse Detection Logic Prompt
+Copy code
+
+Write Python code to detect smartphone misuse based on behavior rules such as:
+- App opened more than 15 times in 1 hour
+- Social media usage during study hours
+- Usage after 11 PM
+- Frequent short sessions (< 2 minutes)
+
+Return misuse type and explanation.
+3️⃣ ML-Based Detection Prompt (Optional)
+Copy code
+
+Create a simple machine learning model using Python that classifies usage behavior into:
+- Normal
+- Misuse
+
+Use features like open frequency, session duration, and time of day.
+Explain the model logic clearly.
+4️⃣ Intervention Engine Prompt
+Copy code
+
+Write Python code that triggers intervention actions when misuse is detected:
+- Print simulated app blocking message
+- Generate delay timer
+- Log intervention to database
+5️⃣ Notification Prompt
+Copy code
+
+Generate user-friendly notification messages explaining misuse detection in simple language.
+Example:
+"You used Instagram 18 times in 40 minutes during study hours."
+6️⃣ Cloud Integration Prompt
+Copy code
+
+Generate Flask API code to:
+- Upload usage data to Firebase
+- Retrieve misuse history
+- Store intervention logs
+Use mock Firebase credentials.
+7️⃣ Dashboard Prompt
+Copy code
+
+Create a simple dashboard using Python (Flask + HTML) to visualize:
+- App usage trends
+- Misuse detection events
+- Intervention frequency
+📱 ANDROID-SPECIFIC PROMPT (If Needed)
+Copy code
+
+Generate Android (Java/Kotlin) code using UsageStatsManager API to monitor app usage statistics.
+Explain permissions required and limitations.
+Simulate app blocking where system-level blocking is not allowed.
+🎓 EXAM / VIVA-FRIENDLY PROMPT
+Copy code
+
+Explain the architecture, algorithms, and novelty of a behavior-aware smartphone misuse detection system.
+Compare it with traditional screen-time applications.
